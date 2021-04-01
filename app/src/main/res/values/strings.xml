@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Kotlin Application</string>
+    <string name="toast_button">TOAST BUTTON</string>
+    <string name="intent_button">INTENT BUTTON</string>
+    <string name="sub_activity">Sub Activity</string>
+    <string name="back">BACK</string>
+    <string name="id">id</string>
+    <string name="id_input">ID INPUT</string>
+    <string name="pw_input">PW INPUT</string>
+    <string name="pw">pw</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/id_input"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="@string/pw_input"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:textSize="20sp"
+        android:id="@+id/btnToast"
+        android:layout_marginTop="30dp"
+        android:text="@string/toast_button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/btnIntent"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#BF4141"
+        android:text="@string/intent_button"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
